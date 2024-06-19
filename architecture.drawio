@@ -4,13 +4,13 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="50" value="" style="edgeStyle=none;html=1;fontFamily=Garamond;" parent="1" source="12" target="10" edge="1">
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;fontFamily=Garamond;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="98.75" as="targetPoint"/>
+                        <mxPoint x="670" y="30" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="59" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="30" y="200" width="60" height="70" as="geometry"/>
+                    <mxGeometry x="20" y="140" width="60" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_3;fillColor=#D2D3D3;gradientColor=none;" parent="59" vertex="1">
                     <mxGeometry width="60" height="40" as="geometry"/>
@@ -19,7 +19,7 @@
                     <mxGeometry y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="30" y="320" width="60" height="70" as="geometry"/>
+                    <mxGeometry x="20" y="280" width="60" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;fontFamily=Garamond;" parent="60" vertex="1">
                     <mxGeometry x="10" width="40" height="40" as="geometry"/>
@@ -28,7 +28,7 @@
                     <mxGeometry y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="240" y="80" width="555" height="310" as="geometry"/>
+                    <mxGeometry x="200" y="60" width="555" height="310" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="" style="group" parent="29" vertex="1" connectable="0">
                     <mxGeometry x="47.57142857142857" y="186.00000000000003" width="63.42857142857143" height="82.66666666666667" as="geometry"/>
@@ -40,43 +40,64 @@
                     <mxGeometry y="51.66666666666667" width="63.42857142857143" height="31.000000000000004" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="" style="group" parent="29" vertex="1" connectable="0">
-                    <mxGeometry y="20.000000000000004" width="555" height="279" as="geometry"/>
+                    <mxGeometry x="10" y="40" width="555" height="279" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="" style="group" parent="39" vertex="1" connectable="0">
                     <mxGeometry width="555" height="279" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="rounded=1;arcSize=10;dashed=0;fillColor=none;gradientColor=none;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="36" vertex="1">
-                    <mxGeometry width="555" height="279" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="" style="group" parent="36" vertex="1" connectable="0">
-                    <mxGeometry x="253.71428571428572" y="62.00000000000001" width="63.42857142857143" height="82.66666666666667" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" parent="37" vertex="1">
-                    <mxGeometry x="5.285714285714286" width="50" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="&lt;p&gt;&lt;font face=&quot;Garamond&quot;&gt;Amazon CloudFront&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="37" vertex="1">
-                    <mxGeometry y="51.66666666666667" width="63.42857142857143" height="31.000000000000004" as="geometry"/>
+                    <mxGeometry y="-20.67" width="555" height="279" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="" style="dashed=0;html=1;shape=mxgraph.aws3.cloud;fillColor=#F58536;gradientColor=none;dashed=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="36" vertex="1">
                     <mxGeometry x="21.142857142857142" y="-20.666666666666668" width="54.971428571428575" height="37.2" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;rounded=0;" parent="36" vertex="1">
-                    <mxGeometry x="450" y="179" width="39.43" height="41" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="Amazon S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;" parent="36" vertex="1">
-                    <mxGeometry x="438.0028571428572" y="220.00333333333336" width="63.42857142857143" height="31.000000000000004" as="geometry"/>
-                </mxCell>
                 <mxCell id="58" value="" style="group" parent="36" vertex="1" connectable="0">
-                    <mxGeometry x="35.129999999999995" y="40" width="60" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.certificate_manager;fontFamily=Garamond;" parent="58" vertex="1">
-                    <mxGeometry x="14.870000000000005" width="30.26" height="40" as="geometry"/>
+                    <mxGeometry x="120" y="30" width="70" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="Certificate manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;" parent="58" vertex="1">
                     <mxGeometry y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="73" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.certificate_manager_3;" vertex="1" parent="58">
+                    <mxGeometry x="10" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="group" vertex="1" connectable="0" parent="36">
+                    <mxGeometry x="245.78428571428572" y="62.00000000000001" width="71.35857142857145" height="138.99666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="group" parent="65" vertex="1" connectable="0">
+                    <mxGeometry x="7.930000000000007" width="63.42857142857143" height="82.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" parent="37" vertex="1">
+                    <mxGeometry x="-0.004285714285714448" y="51.67" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;p&gt;&lt;font face=&quot;Garamond&quot;&gt;Amazon CloudFront&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="65" vertex="1">
+                    <mxGeometry y="107.99666666666667" width="63.42857142857143" height="31.000000000000004" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="group" vertex="1" connectable="0" parent="36">
+                    <mxGeometry x="438.0028571428572" y="144.67000000000002" width="63.428571428571445" height="76.33333333333334" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;rounded=0;" parent="66" vertex="1">
+                    <mxGeometry x="11.99714285714282" width="39.43" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Amazon S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;" parent="66" vertex="1">
+                    <mxGeometry y="45.33333333333334" width="63.42857142857143" height="31.000000000000004" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="endArrow=classic;startArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="36" source="74" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="317.14" y="180" as="sourcePoint"/>
+                        <mxPoint x="367.14" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="endArrow=none;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="36" source="31" target="74">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="513.71" y="238.67000000000007" as="sourcePoint"/>
+                        <mxPoint x="660.0078099361897" y="262.0240674275416" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;IAM Role&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="36">
+                    <mxGeometry x="340" y="145.67" width="60" height="18" as="geometry"/>
+                </mxCell>
                 <mxCell id="63" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="680" y="10" width="60" height="70" as="geometry"/>
+                    <mxGeometry x="670" y="11.25" width="60" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE;rounded=0;" parent="63" vertex="1">
                     <mxGeometry x="10" width="40" height="40" as="geometry"/>
