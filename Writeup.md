@@ -9,8 +9,20 @@ will be used for deployment.
 Step-by-step guidelines
 
 Amazon Simple Storage Service configuration
-1. Creation of an S3 bucket that hosts the static cloud resume website.
-2.
+1. Open the AWS Management console
+2. In the services menu go to S3 and choose "Create Bucket"
+3. Select Bucket type as "General Purpose" and Type the "Bucket Name" and the region example "us-east-1"
+5. uncheck the box in the option of "Block Public Access settings" and check the box of  "I acknowledge that the   current setting might result in this bucket and the objects within becoming public".
+6.  Keep everything default and click on "Create Bucket".
+7. To set up the settings for static website, choose the bucket you created and navigate to "Properties" then      scroll down to "Static website hosting" and click on the edit button.
+8. In the dialog box select "Enable" then choose "Host a static website".
+9. Type the name of index.html document that has your resume. You could also include an error.html document.
+10. Upload the index.html file and the error file.
+11. Set the bucket permissions by navigating to the "Permissions" tab.
+Click on the edit button and create a policy as follows:
+In the "Resource" input the Amazon Resource Name of your bucket.
+12. Run the Static webdsite URL on your browser. It should display your static website.
+
 
 Cloud Front configuration
 1. Creation of CloudFront distribution to serve the website to users over the internet.
